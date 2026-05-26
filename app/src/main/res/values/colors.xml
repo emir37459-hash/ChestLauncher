@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="bg_primary">#1a1a2e</color>
+    <color name="bg_card">#16213e</color>
+    <color name="bg_input">#0f3460</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAACC</color>
+    <color name="text_on_accent">#FFFFFF</color>
+    <color name="accent_primary">#e94560</color>
+    <color name="accent_secondary">#533483</color>
+    <color name="divider">#2a2a4a</color>
+    <color name="error_color">#FF5252</color>
+    <color name="ms_blue">#0078D4</color>
+
+    <!-- Theme colors - Minecraft -->
+    <color name="mc_bg_primary">#2d2d1e</color>
+    <color name="mc_bg_card">#3a3a2a</color>
+    <color name="mc_accent">#5a8a3c</color>
+
+    <!-- Theme colors - Modern -->
+    <color name="mod_bg_primary">#F8F9FA</color>
+    <color name="mod_bg_card">#FFFFFF</color>
+    <color name="mod_accent">#6200EE</color>
+    <color name="mod_text_primary">#212121</color>
+    <color name="mod_text_secondary">#757575</color>
+
+    <!-- Theme colors - Colorful -->
+    <color name="col_bg_primary">#1a0533</color>
+    <color name="col_bg_card">#2d0a52</color>
+    <color name="col_accent">#ff6b6b</color>
+
+    <!-- Theme colors - AMOLED -->
+    <color name="amoled_bg">#000000</color>
+    <color name="amoled_card">#0a0a0a</color>
+    <color name="amoled_accent">#00E5FF</color>
+
+    <!-- Theme colors - Forest -->
+    <color name="forest_bg">#0d1f0d</color>
+    <color name="forest_card">#1a3a1a</color>
+    <color name="forest_accent">#4CAF50</color>
+
+    <!-- Theme colors - Ocean -->
+    <color name="ocean_bg">#061a2e</color>
+    <color name="ocean_card">#0a2a4a</color>
+    <color name="ocean_accent">#00BCD4</color>
+</resources>

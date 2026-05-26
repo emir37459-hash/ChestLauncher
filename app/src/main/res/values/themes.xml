@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base theme (Dark - default) -->
+    <style name="Theme.ChestLauncher" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/accent_primary</item>
+        <item name="colorPrimaryVariant">@color/bg_input</item>
+        <item name="colorOnPrimary">@color/text_on_accent</item>
+        <item name="colorSecondary">@color/accent_secondary</item>
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_card</item>
+        <item name="android:navigationBarColor">@color/bg_card</item>
+    </style>
+
+    <style name="Theme.ChestLauncher.Dark" parent="Theme.ChestLauncher" />
+
+    <style name="Theme.ChestLauncher.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+    </style>
+
+    <!-- Minecraft theme -->
+    <style name="Theme.ChestLauncher.Minecraft" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/mc_accent</item>
+        <item name="colorPrimaryVariant">@color/mc_bg_card</item>
+        <item name="colorOnPrimary">@color/text_on_accent</item>
+        <item name="colorSecondary">@color/mc_accent</item>
+        <item name="android:windowBackground">@color/mc_bg_primary</item>
+        <item name="android:statusBarColor">@color/mc_bg_card</item>
+        <item name="android:navigationBarColor">@color/mc_bg_card</item>
+    </style>
+
+    <!-- Modern / Minimal theme (light) -->
+    <style name="Theme.ChestLauncher.Modern" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/mod_accent</item>
+        <item name="colorPrimaryVariant">@color/mod_bg_card</item>
+        <item name="colorOnPrimary">@color/text_on_accent</item>
+        <item name="android:windowBackground">@color/mod_bg_primary</item>
+        <item name="android:statusBarColor">@color/mod_bg_card</item>
+        <item name="android:navigationBarColor">@color/mod_bg_card</item>
+    </style>
+
+    <!-- Colorful theme -->
+    <style name="Theme.ChestLauncher.Colorful" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/col_accent</item>
+        <item name="colorPrimaryVariant">@color/col_bg_card</item>
+        <item name="colorOnPrimary">@color/text_on_accent</item>
+        <item name="colorSecondary">#4ecdc4</item>
+        <item name="android:windowBackground">@color/col_bg_primary</item>
+        <item name="android:statusBarColor">@color/col_bg_card</item>
+        <item name="android:navigationBarColor">@color/col_bg_card</item>
+    </style>
+
+    <!-- AMOLED Black theme -->
+    <style name="Theme.ChestLauncher.Amoled" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/amoled_accent</item>
+        <item name="colorPrimaryVariant">@color/amoled_card</item>
+        <item name="colorOnPrimary">@color/amoled_bg</item>
+        <item name="android:windowBackground">@color/amoled_bg</item>
+        <item name="android:statusBarColor">@color/amoled_bg</item>
+        <item name="android:navigationBarColor">@color/amoled_bg</item>
+    </style>
+
+    <!-- Forest Green theme -->
+    <style name="Theme.ChestLauncher.Forest" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/forest_accent</item>
+        <item name="colorPrimaryVariant">@color/forest_card</item>
+        <item name="colorOnPrimary">@color/text_on_accent</item>
+        <item name="android:windowBackground">@color/forest_bg</item>
+        <item name="android:statusBarColor">@color/forest_card</item>
+        <item name="android:navigationBarColor">@color/forest_card</item>
+    </style>
+
+    <!-- Ocean Blue theme -->
+    <style name="Theme.ChestLauncher.Ocean" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/ocean_accent</item>
+        <item name="colorPrimaryVariant">@color/ocean_card</item>
+        <item name="colorOnPrimary">@color/text_on_accent</item>
+        <item name="android:windowBackground">@color/ocean_bg</item>
+        <item name="android:statusBarColor">@color/ocean_card</item>
+        <item name="android:navigationBarColor">@color/ocean_card</item>
+    </style>
+
+</resources>

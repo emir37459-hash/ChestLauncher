@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ic_chest.xml - chest icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#CD853F"
+        android:pathData="M2,7 L22,7 L22,20 L2,20 Z" />
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M2,4 L22,4 L22,7 L2,7 Z" />
+    <path
+        android:fillColor="#DAA520"
+        android:pathData="M9,11 L15,11 L15,16 L9,16 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M11,12 L13,12 L13,15 L11,15 Z" />
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M1,4 L23,4 L23,7 L1,7 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#5C2E00" />
+</vector>
