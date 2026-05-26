@@ -51,7 +51,7 @@ class ProfileAdapter(
         holder.tvJava.text    = "Java ${profile.javaVersion}"
         holder.ivIcon.setImageResource(R.drawable.ic_chest)
         holder.card.isSelected = profile.id == selectedId
-        holder.card.strokeWidth = if (profile.id == selectedId) 4 else 0
+        // strokeWidth removed
 
         holder.card.setOnClickListener { onSelect(profile) }
         holder.btnEdit.setOnClickListener { onEdit(profile) }

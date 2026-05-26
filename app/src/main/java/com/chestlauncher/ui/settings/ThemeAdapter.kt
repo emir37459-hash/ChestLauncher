@@ -44,7 +44,7 @@ class ThemeAdapter(
             AppTheme.OCEAN     -> Color.parseColor("#1a6b8a")
         }
         h.preview.setBackgroundColor(bgColor)
-        h.card.strokeWidth = if (theme == selected) 6 else 0
+        // strokeWidth removed
 
         h.card.setOnClickListener {
             selected = theme
