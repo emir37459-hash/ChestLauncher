@@ -8,7 +8,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        archivesBaseName = "ChestLauncher"
+        
         applicationId "com.chestlauncher"
         minSdk 26
         targetSdk 34
@@ -60,4 +60,10 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.espresso:espresso-core:3.5.1'
+}
+
+android.applicationVariants.all { variant ->
+    variant.outputs.all {
+        outputFileName = "ChestLauncher.apk"
+    }
 }
